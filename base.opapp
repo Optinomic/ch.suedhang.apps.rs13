@@ -18,15 +18,13 @@ phone = +41 (0)44 508 26 76
 website = http://www.optinomic.com/
 
 
-[template Resilienz 6 12]
-<h1>Resilienzfragebogen (RS-13)</h1>
-<p>Under construction</p>
+[template Resilienz 6 6]
+__opapp_include(optinomic_lib/dist/templates/ch.suedhang.apps.rs13.production.html)
 
+[css]
 
 [readme]
 __opapp_include(README.md)
-
-[dependencies]
 
 
 [survey]
@@ -36,10 +34,11 @@ responsibility = lead_therapist
 name = Resilienzfragebogen (RS-13)
 host = default
 
+
 [survey_markup rs13_ng]
-__opapp_include(survey_markups/rs13.html)
+__opapp_include(optinomic_lib/dist/survey_markup/rs13.html)
 
 
+[calculation resilienz_score javascript]
+__opapp_include(optinomic_lib/dist/calculations/rs13_score.js)
 
-[calculation rs13_score javascript]
-__opapp_include(calculations/rs13_score.js)
