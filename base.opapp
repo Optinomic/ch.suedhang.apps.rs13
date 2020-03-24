@@ -19,7 +19,7 @@ website = http://www.optinomic.com/
 
 
 [template Resilienz 6 6]
-__opapp_include(optinomic_lib/dist/templates/ch.suedhang.apps.rs13.production.html)
+__opapp_include(optinomic_lib/dist/templates/ch.suedhang.apps.rs13.html)
 
 [css]
 
