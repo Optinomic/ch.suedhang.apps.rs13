@@ -18,13 +18,15 @@ phone = +41 (0)44 508 26 76
 website = http://www.optinomic.com/
 
 
-[template Resilienz 6 6]
-__opapp_include(optinomic_lib/dist/templates/ch.suedhang.apps.rs13.html)
+[readme]
+__opapp_include(README.md)
+
 
 [css]
 
-[readme]
-__opapp_include(README.md)
+
+[template Resilienz 6 6]
+__opapp_include(optinomic_lib/dist/templates/ch.suedhang.apps.rs13.html)
 
 
 [survey]
