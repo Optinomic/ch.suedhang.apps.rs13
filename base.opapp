@@ -32,7 +32,7 @@ __opapp_include(optinomic_lib/dist/templates/ch.suedhang.apps.rs13.html)
 [survey]
 id = rs13_ng
 type = ng
-responsibility = patient_via_assessment
+responsibility = lead_therapist
 name = Resilienzfragebogen (RS-13)
 host = default
 
